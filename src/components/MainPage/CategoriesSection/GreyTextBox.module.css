@@ -1,0 +1,7 @@
+.greyBox{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 0.5vh 1vw;
+    margin-bottom: 1vh;
+    margin-right: 20px;
+}

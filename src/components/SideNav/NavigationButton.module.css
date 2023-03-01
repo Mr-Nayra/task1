@@ -1,0 +1,10 @@
+.NavigationButton {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.parah {
+    margin-left: 0.5vw;
+}
