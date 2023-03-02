@@ -2,7 +2,19 @@
     color: white;
     display: flex;
     align-items: center;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
+    padding: 0.5vh 1.5vw 0.5vh 1.5vw;
+    border-radius: 8px;
+}
+
+.NavigationButtonSelect {
+    background-color: white;
+    color: #5DA1F3;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vh;
+    padding: 0.5vh 1.5vw 0.5vh 1.5vw;
+    border-radius: 8px;
 }
 
 .parah {

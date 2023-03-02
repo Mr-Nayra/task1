@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import NavigationButton from "./NavigationButton";
 import classes from "./SideNav.module.css";
 
 const SideNav = (props) => {
+  const [tab, setTab] = useState(0);
+
+  const changeTab = (val) => {
+    console.log(val);
+    setTab(val);
+  };
+
   return (
     <div
       className={`flexcol ${classes.SideNav} ${
@@ -23,17 +30,37 @@ const SideNav = (props) => {
         )}
       </button>
       <div>
-        <NavigationButton openSideNav={props.openSideNav}>
+        <NavigationButton
+          openSideNav={props.openSideNav}
+          onClick={changeTab}
+          tab={tab}
+          val={0}
+        >
           Manage Categories
         </NavigationButton>
-        <NavigationButton openSideNav={props.openSideNav}>
-          Manage Categories
+        <NavigationButton
+          openSideNav={props.openSideNav}
+          onClick={changeTab}
+          tab={tab}
+          val={1}
+        >
+          Add Company
         </NavigationButton>
-        <NavigationButton openSideNav={props.openSideNav}>
-          Manage Categories
+        <NavigationButton
+          openSideNav={props.openSideNav}
+          onClick={changeTab}
+          tab={tab}
+          val={2}
+        >
+          Add New User
         </NavigationButton>
-        <NavigationButton openSideNav={props.openSideNav}>
-          Manage Categories
+        <NavigationButton
+          openSideNav={props.openSideNav}
+          onClick={changeTab}
+          tab={tab}
+          val={3}
+        >
+          Add Students
         </NavigationButton>
       </div>
       <div className={`flexrow ${classes.profilediv}`}>

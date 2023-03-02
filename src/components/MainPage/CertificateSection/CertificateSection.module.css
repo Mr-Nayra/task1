@@ -1,4 +1,27 @@
-.certificateContainer{
+.heading {
+    color: rgb(138, 92, 247);
+}
+
+.button {
+    background-color: #3B83F7;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    padding: 10px;
+    color: white;
+}
+
+.input {
+    width: 20vw;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #C2BCC9;
+    padding: 10px;
+}
+
+.headingCont {
+    margin-bottom: 4vh;
+}
+
+.certificateContainer {
     display: flex;
     flex-wrap: wrap;
 }

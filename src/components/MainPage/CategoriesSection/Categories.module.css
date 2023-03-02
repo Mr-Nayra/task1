@@ -1,14 +1,23 @@
-.CategoriesContainer{
+.CategoriesContainer {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     margin: 4vh 0;
 }
 
-.purpleButton{
-    background-color: purple;
-    color: plum;
+.purpleButton {
+    background-color: rgb(138, 92, 247);
+    color: #fff;
     padding: 6px 12px;
     border: none;
     border-radius: 6px;
+}
+
+.adminParah {
+    color: #C2BCC9;
+}
+
+.manageCategories {
+    color: #847F87;
+    font-weight: 800;
 }

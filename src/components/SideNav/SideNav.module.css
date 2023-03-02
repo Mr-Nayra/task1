@@ -1,6 +1,6 @@
 .SideNav {
     padding: 4vh 1vw 4vh 1vw;
-    background-color: blue;
+    background-color: #27486E;
     position: sticky;
     top: 0;
     right: 0;
@@ -10,21 +10,27 @@
     width: 28vw;
 }
 
-.SideNavClose {}
-
 .topbutton {
     background-color: transparent;
     border: none;
-    color: aqua;
-    margin-bottom: 2vh;
+    color: #5DA1F3;
+    margin-bottom: 4vh;
 }
 
 .adminheading{
     margin-left: 0.5vw;
+    font-size: 2.4vh;
+}
+
+.blueheading{
+    font-size: 2.4vh;
+    padding-left: 1.5vw;
 }
 
 .profilediv{
+    padding-left: 1.5vw;
     color: white;
+    align-items: center;
 }
 
 .profileText{

@@ -7,8 +7,8 @@ const Categories = () => {
     <div>
       <div className="flexrow spacebetween">
         <div className="flexrow">
-          <p>Assert admin&nbsp;&gt;&nbsp;</p>
-          <p className="bold">Manage Categories</p>
+          <p className={classes.adminParah}>Assert admin&nbsp;&gt;&nbsp;</p>
+          <p className={classes.manageCategories}>Manage Categories</p>
         </div>
         <button className={classes.purpleButton}>+ Add Category</button>
       </div>
