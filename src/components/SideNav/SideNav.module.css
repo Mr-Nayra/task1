@@ -4,6 +4,11 @@
     position: sticky;
     top: 0;
     right: 0;
+    transition: all 0.3s ease-out;
+}
+
+.SideNavClose {
+    width: 4vw;
 }
 
 .SideNavOpen {
@@ -17,22 +22,45 @@
     margin-bottom: 4vh;
 }
 
-.adminheading{
+.adminheading {
     margin-left: 0.5vw;
     font-size: 2.4vh;
 }
 
-.blueheading{
+.blueheading {
     font-size: 2.4vh;
     padding-left: 1.5vw;
 }
 
-.profilediv{
+.profilediv {
     padding-left: 1.5vw;
     color: white;
     align-items: center;
 }
 
-.profileText{
+.profileText {
     margin-left: 0.5vw;
+}
+
+/* media queries */
+@media only screen and (max-width: 991px) {
+    .SideNavOpen {
+        width: 60px;
+    }
+
+    .SideNavClose {
+        width: 60px;
+    }
+
+    .adminheading {
+        display: none;
+    }
+
+    .topbutton {
+        display: none;
+    }
+
+    .profileText {
+        display: none;
+    }
 }

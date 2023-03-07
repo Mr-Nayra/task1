@@ -1,8 +1,15 @@
-.greyBox{
+.greyBox {
     background-color: #F2F5F6;
     border-radius: 20px;
     padding: 0.5vh 1vw;
     margin-bottom: 1vh;
     margin-right: 20px;
     color: #88909A;
+}
+
+@media only screen and (max-width: 767px) {
+    .greyBox{
+        font-size: 12px;
+        padding: 4px 12px;
+    }
 }

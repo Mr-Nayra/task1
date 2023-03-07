@@ -6,8 +6,8 @@ const CertificateCard = (props) => {
     <div className={`${classes.card} flexcol spacebetween`}>
       <div>
         <div className={`flexrow spacebetween ${classes.subHeadingCont}`}>
-          <h2 className={props.subheading}>{props.subheading}</h2>
-          <p>Know more&nbsp;&gt;</p>
+          <h2 className={classes.subheading}>{props.subheading}</h2>
+          <p className={classes.KnowMoreParah}>Know more&nbsp;&gt;</p>
         </div>
         <div className="flexrow ">
           <h1 className={classes.blueHeading}>{props.heading}</h1>

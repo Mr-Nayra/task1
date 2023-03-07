@@ -20,3 +20,17 @@
 .parah {
     margin-left: 0.5vw;
 }
+
+@media only screen and (max-width: 991px) {
+    .parah {
+        display: none;
+    }
+
+    .NavigationButton {
+        justify-content: center;
+    }
+
+    .NavigationButtonSelect {
+        justify-content: center;
+    }
+}

@@ -21,3 +21,17 @@
     color: #847F87;
     font-weight: 800;
 }
+
+@media only screen and (max-width: 767px) {
+    .adminParah {
+        font-size: 14px;
+    }
+
+    .manageCategories {
+        font-size: 14px;
+    }
+
+    .purpleButton{
+        font-size: 12px;
+    }
+}
